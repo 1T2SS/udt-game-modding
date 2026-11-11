@@ -1,0 +1,15 @@
+---
+description: Universal Development Template (game-modding) — Core AI Agent Protocol, Environment/MCP Doctor, Library Radar, Master QC Gate & Memory System
+globs: *
+alwaysApply: true
+---
+
+# Universal Agent Protocol (`game-modding`)
+
+Always read and follow `AGENTS.md` at the repository root as your primary instructions.
+
+1. **Initialization Check**: Read `.ai/SPEC.md`. If `status: UNINITIALIZED`, follow `.ai/BOOTSTRAP.md` to interview the user briefly, verify/set up the development environment and domain MCP servers via `.ai/MCP_AND_TOOLS.md`, select a stack from `.ai/LIBRARY_RADAR.md`, and scaffold the project.
+2. **Environment & MCP Readiness**: Check `.ai/ENVIRONMENT.md` and `.ai/MCP_AND_TOOLS.md`. Proactively use available MCP servers (e.g., Blender MCP for 3D, Chrome DevTools MCP for web, decompilers for modding) or offer to help the user set them up if missing.
+3. **Research & Anti-Bloat**: Follow `.ai/RESEARCH_PLAYBOOK.md` and respect the Banned/Avoided list in `.ai/LIBRARY_RADAR.md`.
+4. **End-of-Round Master QC Gate (`>= 8.5 / 10`)**: At the end of each development round, follow `.ai/QUALITY_CONTROL.md` to run ONE Master Quality Control audit across all 5 categories and record the scores in `.ai/QC_REPORT.md`. If any category is `< 8.5 / 10`, automatically refine and re-verify (up to 3 rounds).
+5. **Living Memory**: Keep `.ai/SPEC.md`, `.ai/ENVIRONMENT.md`, `.ai/QC_REPORT.md`, and `.ai/MEMORY.md` updated after major changes.

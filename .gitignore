@@ -1,0 +1,51 @@
+# Universal Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Common Build & Dependency Directories
+node_modules/
+dist/
+build/
+out/
+target/
+bin/
+obj/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.next/
+.nuxt/
+.svelte-kit/
+.astro/
+.output/
+.wxt/
+.plasmo/
+coverage/
+*.log
+
+# Local Scratch & Orchestration State
+.usd/
+scratch/
+tmp/
+temp/

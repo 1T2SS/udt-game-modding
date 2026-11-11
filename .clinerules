@@ -1,0 +1,8 @@
+# Cline / Roo Code Rules — Universal Development Template (game-modding)
+
+Always read and follow `AGENTS.md` at the root of this repository before writing code.
+
+1. Check `.ai/SPEC.md`. If `status: UNINITIALIZED`, execute `.ai/BOOTSTRAP.md` first.
+2. Consult `.ai/LIBRARY_RADAR.md` (stack selection & banned libraries), `.ai/MCP_AND_TOOLS.md` (environment & MCP server check/setup), and `.ai/RESEARCH_PLAYBOOK.md`.
+3. At the end of each development round, execute the single Master Quality Control check in `.ai/QUALITY_CONTROL.md` and write `.ai/QC_REPORT.md`. Every category must score `>= 8.5 / 10` (refine up to 3 rounds if any category is `< 8.5`).
+4. Maintain `.ai/SPEC.md`, `.ai/ENVIRONMENT.md`, `.ai/QC_REPORT.md`, and `.ai/MEMORY.md` as you build.
